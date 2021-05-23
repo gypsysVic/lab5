@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital,wght@0,400;0,500;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+header {
+    height: 90px;
+    padding: 23px;
+}
+
+header .menu {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+header .menu .menu-link {
+    color: #2d394c;
+    text-decoration: none;
+    transition: 0.4s all;
+}
+
+header .menu .menu-link:hover {
+    color: #274370;
+    transition: 0.4s all;
+}
+
+.promo {
+    background: url(../img/main-bg.png), center, center / cover, no-repeat;
+    min-height: 850px;
+    position: relative;
+}
+
+.promo .hand-img {
+position: absolute;
+bottom: 0;
+right: 0;
+background: url(../img/img-bg.png), center, center / cover, no-repeat;
+width: 1300px;
+height: 752px;
+display: block;
+}
+.promo .title {
+    margin-top: 250px;
+    font-size: 52px;
+    font-weight: 700px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+
+.promo .subtitle {
+    margin-top: 40px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.promo form {
+    margin-top: 60px;
+}
+
+.promo form label {
+   font-size: 16px;
+   color: white;
+}
+
+.promo form label span {
+    background-color: #ffce54;
+    text-transform: uppercase;
+    padding: 5px 4px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.promo form .panel {
+    margin-top: 38px;
+
+}
+.promo form .panel input {
+    width: 400px;
+    height: 55px;
+    background-color: #fff;
+    overflow: none;
+    border-radius: 10px;
+    border: none;
+    padding: 0 15px;
+}
+
+.promo form .panel button {
+    padding: 18px 25px;
+    text-transform: uppercase;
+    background-color: #77c344;
+    color: white;
+    margin-left: 30px;
+    border: none;
+    transition: 0.4s all;
+}
+
+.promo form .panel button:hover {
+    background-color: #5ea32f;
+    transition: 0.4s all;
+}
+
+.banners {
+    background-color: #f8f8f8;
+}
+
+.banners .banners-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.why {
+    position: relative;
+    padding: 115px 0;
+}
+
+.why .title {
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    text-transform: uppercase ;
+}
+.why .features {
+    margin-top: 130px;
+}
+
+.why .features .title-icon {
+    display: flex;
+    justify-content: start;
+}
+
+.why .features .title-icon .icon{
+margin-left: -16px;
+}
+.why .features .title-icon h4 {
+    margin: 9px 25px;
+    font-size: 22px;
+    color: #2d394c;
+}
+.why .features  p {
+    color: #9499a2;
+}
+.why .laptop {
+    position: absolute;
+    margin-top: 130px;
+    display: block;
+    right: 0;
+
+}
+
+.difference {
+    padding: 160px 0 120px 0;
+    background-color: #f3f3f3;
+}
+
+.difference .title {
+    text-align: center;
+}
+
+.difference .text, .board {
+    margin-top: 160px;
+}
+
+.difference .text-item {
+    display: flex;
+    justify-content: start;
+}
+
+.difference .text-item h4 {
+    font-size: 22px;
+    margin: 10px 20px;
+}
+
+.difference p {
+    color: #9499a2;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.email-section {
+    padding: 160px 0 100px 0;
+}
+
+.email-section .title {
+    font-size: 40px;
+    color: #5a626e;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.email-section .subtitle {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 24px;
+    font-style: italic;
+    color: #5a626e;
+    font-weight: 200;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.email-section .foremail {
+    display: block;
+    margin: 0 auto;
+}
+
+.email-section form {
+    margin-top: 60px;
+}
+
+.email-section form label {
+   font-size: 16px;
+   color: rgb(56, 56, 56);
+}
+
+.email-section form label span {
+    background-color: #ffce54;
+    text-transform: uppercase;
+    padding: 5px 4px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: white;
+}
+
+.email-section form .panel {
+    margin-top: 38px;
+
+}
+.email-section form .panel input {
+    width: 630px;
+    height: 68px;
+    background-color: #fff;
+    overflow: none;
+    border-radius: 10px;
+    border:1px solid #c9c8c8;
+    padding: 0 15px;
+}
+
+.email-section form .panel button {
+    padding: 24px 45px;
+    text-transform: uppercase;
+    background-color: #77c344;
+    color: white;
+    margin-left: 30px;
+    border: none;
+    transition: 0.4s all;
+}
+
+.email-section form .panel button:hover {
+    background-color: #5ea32f;
+    transition: 0.4s all;
+}
+
+footer {
+    height: 100px;
+    background-color: #f9f9f9;
+
+}
+
+
+
+
+footer .logo {
+    padding: 28px;
+
+}
+
+footer .menu, .socials {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 34px;
+}
+
+footer .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8d8d8d;
+}
+
+footer .fa-twitter {
+    color: #4cbcf6;
+}
+footer .fa-facebook-f {
+    color: #4a6daa;
+}
+
+footer .fa-google {
+    color: #e74c40;
+}
+
